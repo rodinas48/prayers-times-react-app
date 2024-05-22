@@ -47,7 +47,7 @@ const ContextProvider = (props) => {
     setIsError(false);
     try {
       const response = await axios.get(
-        `http://api.aladhan.com/v1/timingsByCity?city=${tempCity}&country=${tempCountryCode}`
+        `https://api.aladhan.com/v1/timingsByCity?city=${tempCity}&country=${tempCountryCode}`
       );
       if (response.status == 200) {
         const data = response.data.data.timings;
