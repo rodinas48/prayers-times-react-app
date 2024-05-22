@@ -1,0 +1,91 @@
+:root {
+  background-color: rgba(0, 0, 0, 0.793);
+}
+
+.container {
+  color: white;
+  padding: 10px;
+
+}
+
+h1 {
+  /* font-size: 30px; */
+  color: rgb(239, 181, 35);
+  margin-top: 5px;
+}
+.sperator{
+  color: rgb(239, 181, 35);
+  padding: 0px 5px;
+}
+.card {
+  margin: 20px auto !important;
+}
+
+.card:nth-child(3) img {
+  padding: 8px;
+}
+
+.card img {
+  width: 50px;
+}
+
+.prayerTime-Name {
+  width: 50%;
+  background: linear-gradient(to right, transparent, rgba(128, 128, 128, 0.626));
+  margin: auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.prayerName {
+  background-color: white;
+  color: black;
+  border-radius: inherit;
+  border: 1px goldenrod solid;
+  padding: 10px;
+  margin: 10px 0 !important;
+}
+
+.MuiInputLabel-root {
+  color: rgba(213, 213, 213, 0.896) !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(174, 174, 174, 0.512) !important;
+}
+
+
+.countryInput .MuiButtonBase-root {
+  color: rgba(255, 255, 255, 0.827) !important;
+}
+
+input[type="text"] {
+  color: rgba(255, 255, 255, 0.876) !important;
+}
+
+.searchBtn {
+  background-color: white !important;
+  color: black !important;
+  text-transform: capitalize !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.searchBtn:hover {
+  background-color: rgba(255, 255, 255, 0.79) !important;
+}
+
+.MuiLoadingButton-loadingIndicator {
+  color: white !important;
+}
+
+.searchInputs-header {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 5px 2px rgb(40, 40, 40);
+  padding: 10px;
+  border-radius: 5px;
+  /* color: rgb(255, 177, 177); */
+}

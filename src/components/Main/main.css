@@ -1,0 +1,12 @@
+.main-box{
+  position: absolute;
+  border-radius: 10px;
+  top: 50%;
+  transform:translate(-50%,-50%) ;
+  padding: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

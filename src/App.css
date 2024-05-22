@@ -1,0 +1,21 @@
+.btn{
+  background-color: white !important;
+  color: black !important;
+  transition: 0.5s;
+  text-decoration: none;
+
+}
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.82) !important;
+}
+.Azkar-btn{
+  border: 1px solid goldenrod !important;
+  color: goldenrod !important;
+  font-weight: 600 !important;
+  background-color: transparent !important;
+  /* padding: 5px; */
+}
+.Azkar-btn:hover{
+  background-color: goldenrod !important;
+  color: white !important;
+}

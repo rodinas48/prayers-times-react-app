@@ -1,0 +1,38 @@
+
+.azkarBtn{
+    font-family: "Harmattan", sans-serif !important;
+  background-color: transparent;
+  color:  rgba(239, 180, 32, 0.822) !important;
+  font-size: 18px !important;
+  font-weight: 600;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.776);
+  color: rgb(116, 87, 15);
+}
+.azkarCard{
+  background-color: inherit !important;
+  /* color: rgb(181, 181, 181) !important; */
+  text-align: center;
+  /* box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.776) !important; */
+   direction: rtl;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.azkarCard button{
+  background-color: rgb(23, 23, 23);
+}
+.azkarCard button:hover{
+  background-color: rgb(69, 69, 69);
+}
+.zeroCounter{
+  background-color: rgb(186, 51, 51) !important;
+}
+.azkarContent{
+  color: rgb(226, 198, 125) !important;
+  font-size: 20px !important;
+}
+.azkarCaption{
+  color: rgb(255, 189, 22) !important;
+
+}
